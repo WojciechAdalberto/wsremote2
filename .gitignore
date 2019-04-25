@@ -1,0 +1,17 @@
+#ignora los archivos terminados en .a
+*.a
+
+#pero no lib.a, aun cuando había ignorado los arhcivos temrinados en .a en la linea anterior
+!lib.a
+
+# ignora unicamente el archivo TODO de la raiz, no subir /TODO
+/TODO
+
+# ignora todos los archivos del directorio build/
+build/
+
+# ignora todos los archivos .txt el directorio doc/
+doc/**/*.txt
+
+# ignora todos los archivos .txt el directorio doc/**
+doc/**/*.txt
